@@ -23,7 +23,7 @@ function sumWhile(array){
 console.log(sumWhile(numArray));
 
 function sumRecursion(array){
-  if(array.length == 0){
+  if(array.length === 0){
     return 0;
   }
   return array[0] + sumRecursion(array.slice(1, array.length));
